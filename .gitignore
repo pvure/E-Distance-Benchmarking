@@ -1,0 +1,30 @@
+# Virtual Environment
+E_distance_venv/
+venv/
+*.venv/
+
+# Data files - Ignore all H5AD and large CSVs
+*.h5ad
+*.csv
+# Or specifically:
+# lam_pred_de_downsampled.csv
+# lam_srivatsan20_test_predictions.h5ad
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+
+# Output plots (optional, maybe you want to track them)
+# *.png
+
+# IDE specific files (examples)
+.idea/
+.vscode/
+
+# OS specific files (examples)
+.DS_Store
+Thumbs.db
